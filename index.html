@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Number Search</title>
+
+    <!-- CDNs -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/vns.js"></script>
+    <link rel="stylesheet" href="assets/vns.css">
+
+</head>
+
+<body style="background: black;">
+
+
+    <div class="container pt-4" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
+
+        <div class="testbox">
+            <div style="text-align: center;margin-bottom: 30px;font-size: 20px;" id="next_number"></div>
+
+            <div class="number_boxes">
+            </div>
+
+
+
+        </div>
+
+        <h4 style="text-align: center;margin-top: 30px;" id="result"></h4>
+    </div>
+</body>
+
+</html>

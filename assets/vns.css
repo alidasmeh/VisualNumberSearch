@@ -1,0 +1,30 @@
+
+.testbox {
+    padding: 30px;
+    color: white;
+    background: black;
+    overflow: auto;
+}
+
+.number_boxes {
+    width: 600px;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.number_boxes .box {
+    width: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 28px;
+    margin: 4px;
+    float: left;
+    background: white;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+.number_boxes .box:active {
+    background: aqua;
+}
